@@ -1,4 +1,7 @@
 var Person = require("./classroom");
+var StudentGroup = require("./studentGroup");
+var Position = require("./position");
+var Subjects = require("./subject");
 
 class Teacher extends Person {
 	constructor(name, contact, isActive, dateOfBirth, subjects = [], studentGroup = [], salary, position) {
