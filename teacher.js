@@ -1,4 +1,4 @@
-var Person = require("./classroom");
+var Person = require("./person");
 var StudentGroup = require("./studentGroup");
 var Position = require("./position");
 var Subjects = require("./subject");
@@ -15,12 +15,12 @@ class Teacher extends Person {
 		this.salary = salary;
 	}
 	setPosition(position) {
-		this.position = new position;
+		this.position = new Position;
 	}
 	addSubject(subjects) {
-		this.subjects.push(new subjects);
+		this.subjects.push(new Subjects);
 	}
 	addStudentGroup(studentGroup) {
-		this.studentGroup.push(new studentGroup(studentGroup));
+		this.studentGroup.push(new StudentGroup(studentGroup));
 	}
 }

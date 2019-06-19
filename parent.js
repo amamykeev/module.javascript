@@ -1,4 +1,4 @@
-var Person = require("./classroom");
+var Person = require("./person");
 
 class Parent extends Person {
 	constructor(name, contact, jobPosition) {
@@ -10,4 +10,4 @@ class Parent extends Person {
 	}
 }
 
-console.log(1, 2, 3)
+module.exports = Parent;

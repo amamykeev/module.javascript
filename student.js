@@ -1,4 +1,4 @@
-var Person = require("./classroom");
+var Person = require("./person");
 var Parent = require("./parent");
 var StudentGroup = require("./studentGroup");
 
